@@ -28,7 +28,7 @@ const MainNavigation = () => {
           <>
             <Burger onClick={toggleDrawer} />
 
-            <Logo className={s.mobile} />
+            {/* <Logo className={s.mobile} /> */}
 
             <BtnToggleTheme className={s.mobile} />
           </>

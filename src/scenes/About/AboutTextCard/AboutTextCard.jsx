@@ -5,32 +5,26 @@ const AboutTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        Hi Everyone, I am{' '}
-        <span className={s.purple}>Snaichuk Volodymyr </span>
-        from <span className={s.purple}> Ternopil, Ukraine.</span>
+        Hi Everyone, Tôi là{' '}
+        <span className={s.purple}>Nguyễn Ngọc Thiện </span>
+        đến từ <span className={s.purple}> Thái Nguyên, Việt Nam.</span>
         <br />
-        Software engineer with expertise in cross-platform development{' '}
+        Tôi là sinh viên chuyên ngành Kỹ thuật Robot và Trí tuệ nhân tạo{' '}
         <br />
-        using React Native.
-        <br />
-        <br />
-        I have a Bachelor's degree in Computer Science and
-        <br />
-        Master's degree in Project Management from Ternopil Academy.
+        Trường Đại học Giao thông vận tải Hà Nội
         <br />
         <br />
-        Apart from coding, some other activities that I love to do!
+        Ngoài lập trình, một số hoạt động khác mà tôi thích làm!
       </p>
-
       <ul>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Playing Games
+          <ImPointRight /> Chơi Game
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Reading
+          <ImPointRight /> Đọc Sách
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Travelling
+          <ImPointRight /> Du lịch
         </li>
       </ul>
     </div>
